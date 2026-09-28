@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Đăng nhập · JWT Nimbus</title><link rel="stylesheet" href="/css/style.css"><script src="/js/mainjs.js" defer></script></head>
+<body><main><p class="eyebrow">BÀI TẬP LẬP TRÌNH WEB</p><h1>JWT với Nimbus</h1>
+<p>Đăng ký tài khoản, đăng nhập và truy cập API bằng Bearer token.</p>
+<div class="columns"><section><h2>Đăng nhập</h2><form id="loginForm">
+<label>Email<input name="email" type="email" required maxlength="100" autocomplete="username"></label>
+<label>Mật khẩu<input name="password" type="password" required maxlength="72" autocomplete="current-password"></label>
+<button type="submit">Đăng nhập</button></form></section>
+<section><h2>Tạo tài khoản</h2><form id="signupForm">
+<label>Họ và tên<input name="fullName" required maxlength="50" autocomplete="name"></label>
+<label>Email<input name="email" type="email" required maxlength="100" autocomplete="email"></label>
+<label>Mật khẩu<input name="password" type="password" required minlength="6" maxlength="72" autocomplete="new-password"></label>
+<button type="submit">Đăng ký</button></form></section></div>
+<p id="feedback" role="status" aria-live="polite"></p>
+<footer>Spring Boot 3 · Spring Security 6 · Nimbus JOSE + JWT</footer></main></body></html>

@@ -1,0 +1,12 @@
+/target/
+/data/
+/.idea/
+*.iml
+.env
+
+/.settings/
+/.classpath
+/.project
+*.launch
+.env.*
+*.jar
